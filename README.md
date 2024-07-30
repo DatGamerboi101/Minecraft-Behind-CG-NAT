@@ -15,7 +15,7 @@ There are plenty of different ways to bypass CG-NAT but not everything is for fr
 
 These services creates a Secure tunnel between your Minecraft Server and their relay servers what other users connect to and then gets routed through the tunnel to your server.
 
-But if you’re looking for a completely self hosted and open source solution you,  check out [[Minecraft Server behind CG-NAT#How to bypass CG-NAT | How to bypass CG-NAT]].
+But if you’re looking for a completely self hosted and open source solution you,  check out .
 
 ## How to bypass CG-NAT
 
