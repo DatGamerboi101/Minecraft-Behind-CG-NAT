@@ -1,5 +1,5 @@
 >[!note]
->This Repo is very much a WIP and expect some changes in the future!
+>This Repo is very much in WIP and expect some changes and updates in the future!
 
 # Minecraft-Behind-CG-NAT
 
