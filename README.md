@@ -1,4 +1,4 @@
->[!info]
+>[!note]
 >This Repo is very much a WIP and expect some changes in the future!
 
 # Minecraft-Behind-CG-NAT
