@@ -3,22 +3,22 @@
 
 # Minecraft-Behind-CG-NAT
 
-This document aims toward setting up a Minecraft server behind CG-NAT (Carrier Grade NAT) which can prevent users outside your network form accessing any service that's hosted in it.
+This document aims toward setting up a Minecraft server behind CG-NAT (Carrier Grade NAT) which can prevent users outside your network form accessing any service that's hosted within.
 
 # What is CG-NAT?
 
-CG-NAT aka "Carrier Grade - Network Address translation" and is often for residential use  and to prevent IPv4 Exhaustion by adding a second layer of NAT. That means it's not possible to access any services that you host on your Local Network.
+CG-NAT aka "Carrier Grade - Network Address translation" and is often for residential use and to prevent IPv4 Exhaustion by adding a second layer of NAT. That means it's not possible to access any services that's hosted on your Local Network.
 
 ![alt text](<Pasted image 20240730132626.png>)
 Credit: [Hostfi](https://www.hostifi.com/blog/cgnat-on-starlink-explained)
 
 # Bypass CG-NAT (not open sourced)
 
-There are plenty of different ways to bypass CG-NAT but not everything is for free. There are services such as [playit.gg](https://playit.gg/) and [Ngrok](https://ngrok.com/), both offer a free plan but are pretty limited like limited bandwidth and no custom domains. If you don't worry about bandwidths and custom domains so are they are viable choice.
+There are plenty of different ways to bypass CG-NAT but not everything is for free. There are services such as [playit.gg](https://playit.gg/) and [Ngrok](https://ngrok.com/), both offer a free plan but are pretty limited such as limited bandwidth and no custom domains. If you don't worry about bandwidths and custom domains so are they a viable choice.
 
-These services creates a Secure tunnel between your Minecraft Server and their relay servers what other users connect to and then gets routed through the tunnel to your server.
+These services creates a Secure tunnel between your Minecraft Server and their relay servers that other users connect to and then gets routed through the tunnel to your server.
 
-But if you're looking for a completely self hosted and open source solution you,  check out [installation-with-docker](https://github.com/DatGamerboi101/Minecraft-Behind-CG-NAT?tab=readme-ov-file#installation-with-docker).
+But if you're looking for a completely self hosted and open source solution,  check out [installation-with-docker](https://github.com/DatGamerboi101/Minecraft-Behind-CG-NAT?tab=readme-ov-file#installation-with-docker).
 
 ## How to bypass CG-NAT
 
