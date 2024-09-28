@@ -1,0 +1,16 @@
+version: '1.0'
+services:
+  rathole-client:
+    image: archef2000/rathole:latest
+    environment:
+      - "RUST_LOG=info"
+      - "ADDRESS=IP_OF_SERVER:2333"
+      - "SERVICE_TOKEN_1=TOKEN_1"
+      - "SERVICE_TOKEN_2=TOKEN_2"
+      - "SERVICE_NAME_1=minecraft"
+      - "SERVICE_NAME_2=voicechat"
+      - "SERVICE_TYPE_2=udp"
+      - "SERVICE_ADDRESS_1=IP_OF_HOST:25565"
+      - "SERVICE_ADDRESS_2=IP_OF_HOST:24454"
+    restart: unless-stopped
+    network_mode: host
