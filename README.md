@@ -3,11 +3,11 @@
 
 # Minecraft-Behind-CG-NAT
 
-This document aims toward setting up a Minecraft server behind CG-NAT (Carrier Grade NAT) which can prevent users outside your network form accessing any service that's hosted within.
+This document aims toward setting up a Minecraft server behind CG-NAT (Carrier Grade NAT) which can prevent users outside your network from accessing any service that's hosted within.
 
 # What is CG-NAT?
 
-CG-NAT aka "Carrier Grade - Network Address translation" and is often for residential use and to prevent IPv4 Exhaustion by adding a second layer of NAT. That means it's not possible to access any services that's hosted on your Local Network.
+CG-NAT aka "Carrier Grade - Network Address Translation" and is often for residential use and to prevent IPv4 Exhaustion by adding a second layer of NAT. That means it's not possible to access any services that's hosted on your Local Network.
 
 ![alt text](<Pasted image 20240730132626.png>)
 Credit: [Hostfi](https://www.hostifi.com/blog/cgnat-on-starlink-explained)
