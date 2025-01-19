@@ -12,7 +12,7 @@ CG-NAT aka "Carrier Grade - Network Address translation" and is often for reside
 ![alt text](<Pasted image 20240730132626.png>)
 Credit: [Hostfi](https://www.hostifi.com/blog/cgnat-on-starlink-explained)
 
-# Bypass CG-NAT (not open sourced)
+# Bypass CG-NAT (Not open sourced)
 
 There are plenty of different ways to bypass CG-NAT but not everything is for free. There are services such as [playit.gg](https://playit.gg/) and [Ngrok](https://ngrok.com/), both offer a free plan but are pretty limited such as limited bandwidth and no custom domains. If you don't worry about bandwidths and custom domains so are they a viable choice.
 
@@ -20,17 +20,17 @@ These services creates a Secure tunnel between your Minecraft Server and their r
 
 But if you're looking for a completely self hosted and open source solution,  check out [installation-with-docker](https://github.com/DatGamerboi101/Minecraft-Behind-CG-NAT?tab=readme-ov-file#installation-with-docker).
 
-## How to bypass CG-NAT
+# Bypass CG-NAT (Open Source)
 
-To bypass CG-NAT you'll Need a Minecraft server and a VPS with a public IP and docker on both servers. You can use any VPS provider like [Linode](https://www.linode.com/) or Hetzner.
+To bypass CG-NAT you'll Need a Minecraft server and a VPS with a public IP and docker on both servers. You can use any VPS provider like [Linode](https://www.linode.com/), Hostinger or Hetzner.
 
 To get it working we need to use [rathole](https://github.com/rapiz1/rathole) which is a open source project for self hosted tunnel. But the official docker image only supports ``amd64`` so we need a fork of it by [archef2000](https://hub.docker.com/r/archef2000/rathole) which supports ``arm64`` (For arm based systems)
 
 # Installation with docker
 
-Make sure both ``docker`` and ``docker-compose`` commands work before continuing. With the help of [archef2000's](https://hub.docker.com/r/archef2000/rathole) fork and docker-compose it can be easily deployed.
+Make sure both ``docker`` and ``docker-compose`` commands work before continuing. With the help of [archef2000's](https://hub.docker.com/r/archef2000/rathole) fork and docker-compose it can easily be deployed.
 
->[!caution] 
+>[!caution]
 >**Never** share or use simple tokens in `SERVICE_TOKEN_X=TOKEN_HERE` . It might be subjected to a brute force attack and risk compromising the tunnel.
 
 You can find ``docker-compose`` examples below for both ``client`` and ``server``
